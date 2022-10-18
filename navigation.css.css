@@ -1,0 +1,15 @@
+.navbar{
+			background-color: black;
+			padding: 8px;
+			text-align: center;
+			font-size: 25px;
+		}
+		.navbar a{
+			color: white;
+			text-decoration: none;
+			margin-right: 15%;
+			font-family: georgia;
+		}
+		.navbar:hover a{
+			color: blue;
+		}

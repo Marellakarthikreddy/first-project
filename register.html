@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>register</title>
+	<link rel="stylesheet" type="text/css" href="navigation.css">
+	<style type="text/css">
+		body{
+			background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-b3KfS9puUPe5EHORwzPnLEQ0SwiDuWEhz_KLSsGiNZUPRnOeRLAoJZXmPO4aBehY9O0&usqp=CAU);
+			background-repeat: no-repeat;
+			background-size: 35%;
+			background-position:center;
+		}
+		input{
+			margin-top: 2px;
+			border-radius: 200px;
+			padding: 12px;
+		}
+		.button{
+			color: blue;
+			border-radius: 50px;
+			background-color: pink;
+			margin-top: 10px;
+			width: 10%;
+			padding: 12px;
+		}
+		input:hover{
+			background-color: blue;
+		}
+		.select{
+			background-color: blue;
+			border-radius: 12px;
+			margin-top: 2px;
+			padding: 15px;
+		}
+		.course{
+			background-color: blue;
+			border-radius: 12px;
+			margin-top: 2px;
+			padding: 12px;
+		}
+		.reset{
+			color: white;
+			border-radius: 300px;
+			margin-top: 10px;
+			background-color: pink;
+			width: 10%;
+			padding: 15px;
+
+		}
+		.occupation{
+			color: white;
+			border-radius: 20px;
+			margin-top: 10px;
+			background-color: pink;
+			width: 10%;
+			padding: 1%;
+		}
+		.date{
+			padding: 1%;
+			width: 10%;
+		}
+
+	</style>
+
+</head>
+<body>
+	<nav class="navbar">
+		<a href="register.html">register</a>
+		<a href="login.html">login</a>
+		<a href="task.html">task</a>
+	</nav>
+	<center>
+	<form class="register" action="login.html">
+		<h1>Register form</h1>
+		<p><input placeholder="enter name" type="text" required></p>
+		<p><input type="number" placeholder="enter age"></p>
+		<p><input  class="date"type="date"></p>
+		<p><input type="password" placeholder="enter password" required></p>
+		<p><input type="password" placeholder="confirm password"></p>
+		<p><input type="email" placeholder="enter email adress"required></p>
+		<p>
+			<input type="radio" value="male" name="gender">male
+			<input type="radio" value="female" name="gender">female
+		</p>
+		<p><select class="occupation">
+			<option value="select your occupation">select your occupation</option>
+			<option value="10th">10th</option>
+			<option value="inter">inter</option>
+			<option value="degree">degree</option></select>
+		</p>
+		<p><input type="file"></p>
+		<select>
+			<option value="select your course">select your course</option>
+			<option value="MPC/BIPC">MPC/BIPC</option>
+			<option value="BSC/BCOM">BSC/BCOM</option>
+			<option value="other">other</option>
+		</select>
+		<p><button class="button">submit</button></p>
+		<p><button class="reset">reset</button></p>
+		</center
+</body>
+</html>
